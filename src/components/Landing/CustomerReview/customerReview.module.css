@@ -1,0 +1,113 @@
+.main {
+  position: relative;
+  margin: auto;
+  background: #fff1eb;
+}
+.introText {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5.3rem;
+}
+.introText h4 {
+  font-size: 1.125rem;
+  color: #2a2a2a;
+}
+.introText p {
+  font-size: 0.875rem;
+  line-height: 1.613rem;
+  color: rgba(42, 42, 42, 0.8);
+  margin-top: 1.875rem;
+}
+.review1 {
+  width: 20.938rem;
+  background: #f5f3f1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 0.625rem;
+  height: 31.188rem;
+  margin-right: 1.2rem;
+  margin-bottom: 50px;
+  transition: 0.5s ease-in-out;
+}
+.review1:hover {
+  transform: scale(1.2);
+}
+.cardDetail {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 3.438rem;
+}
+.cardDetail h4 {
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: #2a2a2a;
+  margin-top: 1.25rem;
+}
+.cardDetail span {
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.625rem;
+}
+.cardDetail p {
+  font-size: 0.875rem;
+  line-height: 1.85rem;
+  text-align: center;
+  color: rgba(42, 42, 42, 0.8);
+  margin-top: 1.25rem;
+}
+.cardReview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6.125rem;
+  padding-bottom: 11rem;
+  z-index: 1;
+}
+.eclipse1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.eclipse2 {
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+}
+.eclipse1,
+.eclipse2 {
+  width: 20%;
+}
+.eclipse1 > img,
+.eclipse2 > img {
+  width: 100%;
+}
+@media screen and (max-width: 555px) {
+  .review1 {
+    width: 18rem;
+    height: 29.188rem;
+    margin-right: 0rem;
+  }
+  .cardDetail p {
+    line-height: 1.5rem;
+  }
+.introText{
+  width: 90%;
+}
+}
+@media screen and (max-width: 300px) {
+  .review1 {
+    width: 16rem;
+    height: 26.188rem;
+  }
+  .cardDetail h4 {
+    font-size: 1rem;
+  }
+  .cardDetail p {
+    font-size: 0.7rem;
+    line-height: 1.4rem;
+  }
+}

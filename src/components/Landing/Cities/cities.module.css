@@ -1,0 +1,21 @@
+.main h3 {
+  text-align: center;
+}
+.cities {
+  display: flex;
+  padding-bottom: 4rem;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.cities>div{
+  margin: 0px 15px 10px 15px ;
+  transition: all 0.5s ease-in-out;
+
+}
+.cities>div:hover{
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

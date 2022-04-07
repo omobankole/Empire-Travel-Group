@@ -1,0 +1,68 @@
+.container {
+  background: url(`${../../../../../assets/images/Footer/FooterBg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logoContainer span {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.column1 {
+  width: 30%;
+}
+.column1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.colum2 h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.colum2 a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.icon {
+  margin: 20px;
+}
+@media screen and (max-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 90px);
+    justify-content: center;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column1 p,
+  .colum2 a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .logoContainer span,
+  .colum2 h4 {
+    font-size: 14px;
+  }
+}

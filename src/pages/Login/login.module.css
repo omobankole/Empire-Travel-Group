@@ -1,0 +1,173 @@
+.logoContainer, .top {
+  align-items: center;
+}
+.top .FaTimes {
+  Font-size: 1.2rem;
+}
+.logoContainer span {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bolder;
+}
+.loginPage {
+  width: 85vw;
+  height: 80vh;
+  padding: 1.5rem 2.5rem 1.5rem 10.3rem;
+}
+.logoContainer,
+.flexItem,
+.top,
+.forget,
+.check,
+.divide,
+.signIn,
+.google,
+.facebook {
+  display: flex;
+}
+.loginContent {
+  width: 38%;
+}
+.signIn {
+  margin-top: 3.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.flexItem, .top {
+  justify-content: space-between;
+}
+.loginContent h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2a2a2a;
+  margin-top: 2.5rem;
+}
+.span {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 139.5%;
+  letter-spacing: 0.08em;
+  color: #2a2a2a;
+}
+.google,
+.facebook {
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.438rem 0.5rem;
+  border-radius: 5px;
+  width: 49%;
+}
+.google, .facebook {
+  box-shadow: 0px 4px 40px 2px rgba(0, 0, 0, 0.1);
+}
+.facebook {
+  background: #527bcb;
+  color: #ffffff;
+}
+.google > img,
+.facebook > img {
+  margin-right: 6px;
+}
+.divide {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.divide span {
+  background: rgba(42, 42, 42, 0.7);
+  width: 85%;
+  height: 1.6px;
+}
+.divide p {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: rgba(42, 42, 42, 0.5);
+  margin: 0 6px;
+}
+.check {
+  align-items: center;
+  margin: 8px 0;
+}
+.forget {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.check label,
+.forget a {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 139.5%;
+  /* letter-spacing: 0.08em; */
+  color: #2a2a2a;
+}
+.button button {
+  width: 100%;
+}
+.heroLogin {
+  width: 50%;
+  margin-left: 3rem;
+}
+.heroLogin img {
+  width: 100%;
+  margin-left: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .heroLogin {
+    display: none;
+  }
+  .loginPage{
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  } 
+  .loginContent {
+    width: 55%;
+  }
+  .flexItem{
+    justify-content: center;
+  }
+  .loginContent h3, .signIn {  
+    margin: 1.5rem 0;
+  }
+  .loginContent h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px){
+  .arrow {
+    display: none;
+  }
+  .loginPage {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+  .loginContent {
+    width: 70%;
+  }
+  .signIn{
+    flex-direction: column;
+    align-items: center;
+  }
+  .google, .facebook{
+    width: 100%;
+    justify-content: center;
+  
+  }
+}
+@media screen and (max-width: 425px){
+  .loginContent{
+    width: 100%;
+  }
+  .logoContainer span{
+    display: none;
+  }
+  .loginPage {
+    height: 95vh;
+  }
+}
+@media screen and (max-width: 320px){
+  .loginContent h3 {  
+    margin: 0.1rem 0;
+  }
+}

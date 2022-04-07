@@ -1,0 +1,52 @@
+.mainForm {
+  background-image: linear-gradient(#00000099, #00000099),
+    url("../../../assets/images/Landing/hero-image4.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  background-attachment: fixed;
+}
+.mainForm form {
+  width: 560px;
+  height: 416px;
+  max-width: 90%;
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 45px auto;
+}
+.mainForm form input {
+  width: 85%;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  background: rgba(4, 158, 207, 0.1);
+  padding: 0 20px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+.mainForm form label {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a2a2a;
+  line-height: 35px;
+  padding: 60px 0px 35px 0px;
+}
+.mainForm form button {
+  width: 85%;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  background: #fd5308;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

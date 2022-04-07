@@ -1,0 +1,37 @@
+.main h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.allBlog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+.blogImage {
+  margin: 0 50px;
+  position: relative;
+
+}
+.blogImage p {
+ position: absolute;
+ bottom: 15px;
+ color: #fff;
+ font-size: 14px;
+ padding: 0 2rem;
+}
+.image{
+   filter: brightness(60%); 
+}
+.main {
+    margin: 4rem 0;
+}
+@media screen and (max-width: 320px){
+  .image {
+    width: 280px;
+  }
+}
+  
+

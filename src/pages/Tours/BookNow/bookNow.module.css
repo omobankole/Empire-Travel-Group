@@ -1,0 +1,86 @@
+.flexOne {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.infoBook {
+  width: 61%;
+}
+.infoBook article {
+  width: 65%;
+  margin: 30px 0;
+}
+.infoBook a {
+  background: #fd5308;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+}
+.infoBook a:hover {
+  background: white;
+  color: #fd5308;
+  border: 3px solid #fd5308;
+}
+.infoBook h3 {
+  margin-bottom: 10px;
+}
+article p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.fill1 {
+  width: 39%;
+}
+.main {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 1024px) {
+  .Himage > img {
+    width: 350px;
+    height: 350px;
+  }
+  article p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Himage > img {
+    width: 250px;
+    height: 250px;
+  }
+  .infoBook a {
+    padding: 10px 20px;
+  }
+  article p,
+  .infoBook h3 {
+    font-size: 14px;
+  }
+  .fill1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .flexOne {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fill1,
+  .infoBook {
+    width: 90%;
+  }
+  .infoBook article {
+    width: 100%;
+  }
+  .Himage > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .fill1 {
+    margin-top: 40px;
+  }
+}

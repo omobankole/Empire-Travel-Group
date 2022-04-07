@@ -1,0 +1,27 @@
+.main h2 {
+  text-align: center;
+}
+.main > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 310px);
+  grid-row-gap: 90px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.hove > div:hover {
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+    .main>div{
+      grid-row-gap: 30px;
+      grid-column-gap: 30px;
+      grid-template-columns: repeat(auto-fill, 250px);
+    }
+    .main h2{
+      font-size: 18px;
+    }
+}

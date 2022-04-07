@@ -1,0 +1,154 @@
+.main {
+  background: #fff;
+  display: flex;
+  width: 50%;
+  /* justify-content: center; */
+  margin: 5rem auto 0rem auto;
+  padding: 2rem 2rem;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.main > div {
+  padding: 0px 15px;
+}
+.textIt {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.textIt > img {
+  margin-right: 10px;
+}
+.search {
+  background: #fd5308;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.main input,
+.main select {
+  border: transparent;
+  padding-left: -10px;
+}
+.datePicker {
+  margin-left: 60px;
+  border-right: #fd5308 solid 1px;
+}
+.toured {
+    border-right: #fd5308 solid 1px;
+}
+.downArrow{
+ position: relative;
+}
+.downArrow>img{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+@media screen and (max-width: 1230px){
+  .main{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main{
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem auto 0rem auto;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+    
+  }
+  .main > div {
+    padding: 3px 15px;
+  }
+  .textIt {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 10px;
+  }
+  .textIt > img {
+    margin-right: 10px;
+  }
+  .search {
+    width: 40%;
+    margin: auto;
+  }
+  .main input,
+  .main select {
+    border: transparent;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .datePicker {
+    margin-left: 0px;
+    border-right: none;
+    border-bottom: #fd5308 solid 1px;
+    margin-bottom: 15px;
+  }
+  .toured {
+      border-right: none;
+      border-bottom: #fd5308 solid 1px;
+      margin-bottom: 15px;
+  }
+  .downArrow>img{
+      right: 5px;
+  }
+  .main label{
+    font-size: 12px;
+  }
+}
+  
+
+
+@media screen and (max-width: 555px){
+  .main{
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem auto 0rem auto;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+    
+  }
+  .main > div {
+    padding: 3px 15px;
+  }
+  .textIt {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 10px;
+  }
+  .textIt > img {
+    margin-right: 10px;
+  }
+  .search {
+    width: 40%;
+    margin: auto;
+  }
+  .main input,
+  .main select {
+    border: transparent;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .datePicker {
+    margin-left: 0px;
+    border-right: none;
+    border-bottom: #fd5308 solid 1px;
+    margin-bottom: 15px;
+  }
+  .toured {
+      border-right: none;
+      border-bottom: #fd5308 solid 1px;
+      margin-bottom: 15px;
+  }
+  .downArrow>img{
+      right: 5px;
+  }
+  .main label{
+    font-size: 12px;
+  }
+}

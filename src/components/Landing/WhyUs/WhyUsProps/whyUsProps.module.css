@@ -1,0 +1,73 @@
+ .gridUs{
+  width: 23.75rem;
+  height: 16.5rem;
+  background: #ffffff;
+  border: 1px solid #fd5308;
+  border-radius: 10px;
+  transition: 0.7s ease-in-out;
+}
+.gridUs:hover{
+  background: #fd5308; 
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gridUs:hover .h4, .gridUs:hover p{
+  color: #fff;
+}
+.gridUs:hover span{
+  color: #2a2a2a;
+}
+.title > h4 {
+  width: 90%;
+  margin: auto;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2a2a2a;
+  margin-top: 1.375rem;
+}
+.title h4 span {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #fd5308;
+  margin-right: 0.438rem;
+}
+
+.gridUs p {
+  width: 72%;
+  margin: auto;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.9rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 1.25rem;
+}
+@media screen and (max-width: 555px) {
+  .gridUs{
+    width: 19rem;
+  }
+  .title h4 span {
+    font-size: 0.9rem;
+  }
+  .title > h4 {
+    width: 95%;
+    font-size: 0.95rem;
+  }
+  .gridUs p {
+    width: 72%;
+    line-height: 1.7rem;
+  }
+  
+}
+@media screen and (max-width: 369px){
+
+  .title h4 span {
+    font-size: 0.8rem;
+  }
+  .title > h4 {
+    font-size: 0.75rem;
+  }
+  .gridUs p {
+    line-height: 1.4rem;
+    font-size: 0.775rem;
+  }
+}

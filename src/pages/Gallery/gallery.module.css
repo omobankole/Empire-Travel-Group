@@ -1,0 +1,32 @@
+.main h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .main{
+      margin-bottom: 3.5rem;
+  }
+  .main > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-row-gap: 100px;
+    grid-column-gap: 126px;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin: auto;
+  }
+
+  .main > .btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    .main > div{
+      grid-template-columns: repeat(auto-fill, 250px);
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+    }
+    .main h2{
+      font-size: 18px;
+    }
+  }

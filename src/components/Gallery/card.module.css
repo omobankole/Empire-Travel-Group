@@ -1,0 +1,37 @@
+
+.size{
+    width: 309.5px;
+    height: 350px;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px; 
+  }
+  .size:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .image {
+  border-radius: 20px; 
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+.main{
+  width: 309.5;
+}
+.main > p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: #2a2a2a;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+ .size{
+   width: 250px;
+   height: 300px;
+ }
+ .main{
+   width: 250px;
+ }
+}

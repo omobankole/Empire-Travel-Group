@@ -1,0 +1,41 @@
+.main {
+  background-image: linear-gradient(#00000099, #00000099),
+    url("../../../assets/images/Landing/hero-image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content {
+  margin-bottom: 70px;
+}
+.content h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+}
+.content p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+  color: #ffffff;
+}
+.gridMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px; 
+}
+.gridMe>div {
+  margin: 0px 20px 10px 20px;
+}
+
+@media screen and (max-width: 555px) {
+  .content p {
+    width: 95%;
+  }
+}

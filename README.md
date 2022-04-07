@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- [Empire Group Travel](#empire-group-travel)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-In the project directory, you can run:
 
-### `npm start`
+# Empire Group Travel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View the optimal layout depending on their device's screen size
+- Route to different pages on the website.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./src/assets/images/Landing/empire.jpeg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Solution Url: (https://github.com/omobankole/Empire-Travel-Group.git)
+- [Figma Link](https://www.figma.com/file/iWgFSpY47P7Unso2AhgJfk/Untitled?node-id=0%3A1)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### My Process
+........🥶😱😰😢😔😓😴🤔🤗😊😋😎
+## Built with
 
-### `npm run eject`
+- React @v18
+- Semantic JSX markup
+- Css modules
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
+As my first react project, it was a little bit difficult from the beginning but i learned a lot in the process of building this project. firstly i learn how to create react app from different terminals and installation of react packages from npm website and their usages, react hooks(but still intermediate with most hooks as there isn't much state management in this project), use of css modules, use of semantic jsx, use of react-router-dom and more....
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```jsx
+export const EmpireGroup = () => {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <p>This is my first react app</p>
+    </div>
+  );
+};
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Continued development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I want to focus more on react hooks such as useState, useEffect etc, folder structuring, component and props, usages of different packages and css frameworks then go back learning ES6 to it best. more so get prepared for what coming next.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resourses
 
-### Code Splitting
+- [React](https://www.reactjs.org) - Best way to learn react is by going through their documentation.
+- [Youtube](https://www.youtube.com) - I think everyone needs youtube.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Twitter - [@omobankole1](https://www.twitter.com/omobankole1)
+- Github - [@omobankole](https://www.github.com/omobankole)
+- LinkedIn - [@bankole olatunji](https://www.linkedin.com/in/bankole-yusuf-olatunji/)
+## Acknowledgments
+ I really want to thank grazac academy for giving me great opportunity to be one of their student in this ongoing cohort and secondly tutor mayowa for the smooth interactive and comprehended classes. Victor, Mr dare for putting me through and lastly my coursemates. you all are wonderful and i really appreciate you all for your hard work and dedication.

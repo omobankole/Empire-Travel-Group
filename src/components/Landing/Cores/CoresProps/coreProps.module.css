@@ -1,0 +1,55 @@
+.main{
+    width: 23.75rem;
+    height: 16.5rem;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
+}
+.main:hover{
+    background: #1E1F25;
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main:hover h4, .main:hover p{
+    color: #e1dede;
+}
+.coreFlex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-top: 1.375rem;
+}
+
+.coreFlex h4{
+    margin-left: 0.7rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #2A2A2A;
+}
+.main p{
+    width: 80%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.7rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 1rem;
+}
+@media screen and (max-width: 555px){
+    .main{
+        width: 19rem;
+    }
+}
+@media screen and (max-width: 369px){
+    .main p{
+        width: 90%;
+        font-size: 0.775rem;
+        line-height: 1.4rem;
+        margin-top: 0.6rem;
+    }
+    .coreFlex h4{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.main h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.textLine{
+    margin-top: 40px;
+}
+.textLine p{
+    font-weight: 600;
+}
+.info{
+    width: 61%;
+}
+
+.fill {
+    width: 39%;
+}
+.main{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 1024px){
+  .textLine article {
+      font-size: 12px;
+  }
+  .info{
+      width: 55%;
+  }
+  .fill{
+        width: 50%;
+  }
+}
+@media screen and (max-width: 555px){
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fill, .info{
+        width: 90%;
+    }
+    .fill {
+        margin-top: 30px;
+    }
+    .textLine{
+        margin-top: 25px;
+    }
+}
