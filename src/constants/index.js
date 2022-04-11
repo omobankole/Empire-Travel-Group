@@ -52,51 +52,51 @@ export const array = [
   },
   {
     image: Img5,
-    location: "London",
+    location: "America",
   },
   {
     image: Img6,
-    location: "London",
+    location: "Ghana",
   },
   {
     image: Img7,
-    location: "London",
+    location: "Italy",
   },
   {
     image: Img8,
-    location: "London",
+    location: "Egypt",
   },
   {
     image: Img9,
-    location: "London",
+    location: "Dubai",
   },
   {
     image: Img10,
-    location: "London",
+    location: "Australia",
   },
   {
     image: Img11,
-    location: "London",
+    location: "China",
   },
   {
     image: Img12,
-    location: "London",
+    location: "Singapore",
   },
   {
     image: Img13,
-    location: "London",
+    location: "Kenya",
   },
   {
     image: Img14,
-    location: "London",
+    location: "Spain",
   },
   {
     image: Img15,
-    location: "London",
+    location: "Canada",
   },
   {
     image: Img16,
-    location: "London",
+    location: "Togo",
   },
 ];
 

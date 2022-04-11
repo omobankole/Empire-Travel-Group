@@ -89,12 +89,12 @@ a {
   .rdrCalendarWrapper {
     font-size: 8px !important;
   }
-  .rdrNextButton{
+  /* .rdrNextButton{
     right: -34px;
   }
   .rdrPprevButton{
     left: -35px;
-  }
+  } */
   .rdrMonthAndYearPickers {
     margin-left: -165px;
   }
