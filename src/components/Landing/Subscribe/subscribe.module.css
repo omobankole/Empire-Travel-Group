@@ -5,7 +5,6 @@
   background-size: cover;
   justify-content: center;
   display: flex;
-  background-attachment: fixed;
 }
 .mainForm form {
   width: 560px;

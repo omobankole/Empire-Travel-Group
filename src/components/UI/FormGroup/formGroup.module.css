@@ -1,23 +1,31 @@
 .formGroup {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
 }
 .formLabel {
-    font-style: normal;
-    font-size: 12px;
-    line-height: 28px;
-    color: #2a2a2a;
-    margin-bottom: 0px
+  font-style: normal;
+  font-size: 12px;
+  line-height: 28px;
+  color: #2a2a2a;
+  margin-bottom: 0px;
 }
 .formInput {
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    background: #FFFFFF;
-    border: 1px solid #E5E9F2;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid #e5e9f2;
+  border-radius: 5px;
+}
+.visible {
+  position: relative;
+}
+.HideShow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 .formInput:focus {
-    outline: none;
+  outline: none;
 }

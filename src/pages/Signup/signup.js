@@ -5,11 +5,11 @@ import Logo from "../../assets/images/Landing/travel.svg";
 import FormGroup from "../../components/UI/FormGroup/formGroup";
 import Button from "../../components/UI/Button/button";
 import { FaTimes } from "react-icons/fa";
-import Checkbox from "../../components/UI/FormGroup/Checkbox/checkbox"; 
+import Checkbox from "../../components/UI/FormGroup/Checkbox/checkbox";
 const Signup = () => {
   return (
     <div className={classes.loginPage}>
-     <div className={classes.top}>
+      <div className={classes.top}>
         <Link to="/" className={classes.logoContainer}>
           <div>
             <img src={Logo} alt="Logo" />
@@ -39,9 +39,7 @@ const Signup = () => {
               placeholder="******"
             />
             <div className={classes.check}>
-              {/* <input type="checkbox" /> */}
-              <Checkbox />
-              <label htmlFor="">Accept the terms and policies</label>
+              <Checkbox text="Accept the terms and policies" />
             </div>
             <div class={classes.button}>
               <Button text="Register" />

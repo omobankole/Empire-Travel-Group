@@ -8,8 +8,11 @@ import facebook from "../../assets/images/Login/facebook.svg";
 import FormGroup from "../../components/UI/FormGroup/formGroup";
 import { FaTimes } from "react-icons/fa";
 import Checkbox from "../../components/UI/FormGroup/Checkbox/checkbox";
+import visible from "../../assets/images/Login/visible.svg";
+import { useState } from "react";
 
 const Login = () => {
+  const [pass, setPass] = useState(false);
   return (
     <div className={classes.loginPage}>
       <div className={classes.top}>
@@ -52,11 +55,13 @@ const Login = () => {
               label="Name of school"
               type="text"
               placeholder="********"
+              image={visible}
+              pass={pass}
+              setPass={setPass}
             />
             <div class={classes.forget}>
               <div className={classes.check}>
-                <Checkbox />
-                <label htmlFor="">Remember me</label>
+                <Checkbox text="Remember Me" />
               </div>
               <Link to="">Forgot Password</Link>
             </div>
