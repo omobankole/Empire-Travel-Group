@@ -35,92 +35,10 @@
 .down {
   margin-left: 20px;
 }
-.getNow {
+.getNow{
   position: relative;
 }
-.rdrCalendarWrapper {
-  background-color: transparent !important;
-  color: #fff !important;
-}
-.rdrCalendarWrapper button {
-  color: #fff !important;
-}
-.rdrCalendarWrapper span {
-  color: #fd5308 !important;
-  font-size: 16px;
-}
-.rdrMonthsVertical {
-  align-items: center;
-}
-.rdrCalendarWrapper .rdrSelected {
-  color: #fd5308 !important;
-}
-.rdrDayNumber span {
-  color: #cccccc !important;
-}
-.rdrMonthPicker select,
-.rdrYearPicker select {
-  color: #ffff !important;
-}
 
-.rdrNextButton {
-  position: absolute;
-  right: -50px;
-  background: transparent !important;
-  top: 50%;
-}
-.rdrPprevButton {
-  position: absolute;
-  left: -50px;
-  background: transparent !important;
-  top: 50%;
-}
-.rdrPprevButton i {
-  border-color: transparent rgb(255, 255, 255) transparent transparent !important;
-  border-width: 8px 8px 8px 8px !important;
-}
-.rdrNextButton i {
-  border-color: transparent transparent transparent rgb(255, 255, 255) !important;
-  border-width: 8px 8px 8px 8px !important;
-}
-.rdrMonthAndYearWrapper {
-  padding-bottom: 2rem;
-}
-.rdrMonthAndYearPickers {
-  margin-left: -260px;
-}
-.rdrDateDisplayWrapper {
-  display: none;
-}
-.rdrWeekDays .rdrWeekDay {
-  color: #fff !important;
-}
-.rdrDayToday .rdrDayNumber span:after {
-  display: none;
-}
-.rdrYearPicker {
-  margin: 0 -45px !important;
-}
-@media screen and (max-width: 480px) {
-  .rdrCalendarWrapper {
-    font-size: 8px !important;
-  }
-  /* .rdrNextButton{
-    right: -34px;
-  }
-  .rdrPprevButton{
-    left: -35px;
-  } */
-  .rdrMonthAndYearPickers {
-    margin-left: -165px;
-  }
-  .rdrCalendarWrapper span {
-    font-size: 12px;
-  }
-  .rdrMonthAndYearWrapper {
-    padding-bottom: 0rem;
-  }
-}
 @media screen and (max-width: 480px) {
   .getNow {
     padding: 0rem 1rem 2rem 1rem;
