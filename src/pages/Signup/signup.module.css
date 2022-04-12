@@ -20,7 +20,7 @@
 }
 .loginPage {
   width: 80vw;
-  height: 89vh;
+  height: 90vh;
   padding: 1.5rem 1.5rem 1.5rem 5.3rem;
 }
 .flexItem,
@@ -79,10 +79,16 @@ a {
 .heroSign img{
   width: 100%;
 }
+@media screen and (max-width: 1200px) {
+  .loginPage {
+    height: 93vh;
+  }
+  
+}
 @media screen and (max-width: 1024px) {
   .loginPage {
     width: 90vw;
-    height: 90vh;
+    height: 92vh;
     padding: 1.5rem 1.5rem 1.5rem 6.3rem;
   }
   .already, .flexItem form{

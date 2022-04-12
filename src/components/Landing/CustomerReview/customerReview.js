@@ -52,7 +52,7 @@ const CustomerReview = () => {
             <div className={classes.person}>
               <img src={paul} alt="" />
             </div>
-            <h4>Cynthia Obi</h4>
+            <h4>Paul Adams</h4>
             <span>Student</span>
             <p>
               {" "}

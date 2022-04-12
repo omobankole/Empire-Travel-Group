@@ -11,14 +11,13 @@
 }
 .loginPage {
   width: 85vw;
-  height: 80vh;
+  height: 88vh;
   padding: 1.5rem 2.5rem 1.5rem 10.3rem;
 }
 .logoContainer,
 .flexItem,
 .top,
 .forget,
-.check,
 .divide,
 .signIn,
 .google,
@@ -86,21 +85,18 @@
   color: rgba(42, 42, 42, 0.5);
   margin: 0 6px;
 }
-.check {
-  align-items: center;
-  margin: 8px 0;
-}
+
 .forget {
-  align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin: 8px 0;
+
 }
 .check label,
 .forget a {
   font-weight: 500;
   font-size: 10px;
   line-height: 139.5%;
-  /* letter-spacing: 0.08em; */
   color: #2a2a2a;
 }
 .button button {
@@ -120,6 +116,7 @@
   }
   .loginPage{
     padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    height: 88vh;
   } 
   .loginContent {
     width: 55%;

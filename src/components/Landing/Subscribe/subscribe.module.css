@@ -49,3 +49,15 @@
   font-weight: bold;
   cursor: pointer;
 }
+@media screen and (max-width: 420px) {
+  .mainForm form label {
+    font-size: 13px;
+    line-height: 25px;
+    max-width: 90%;
+    padding: 35px 0px 35px 0px;
+  }
+  .mainForm form {
+    height: 350px;
+    margin: 45px auto;
+  }
+}
