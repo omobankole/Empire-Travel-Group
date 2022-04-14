@@ -14,21 +14,16 @@
     color: #fff;
 }
 .homeTour{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-row-gap: 50px;
-    grid-column-gap: 155px;
+    display: flex;
     justify-content: center;
     padding-bottom: 4.5rem;
-    width: 85%;
+    flex-wrap: wrap;
+    width: 100%;
     margin: auto;
 }
 
 @media screen and (max-width: 555px){
-    .homeTour{
-        grid-template-columns: repeat(auto-fill, 250px);
-        width: 100%;
-    }
+
     .tourInfo{
         flex-direction: column;
         align-items: center;

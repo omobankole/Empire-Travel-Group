@@ -1,8 +1,11 @@
 .partnerAll{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 310px); 
+    display: flex;
     justify-content: center;
-    grid-row-gap: 35px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.partner1{
+    margin: 0 60px 30px 60px;
 }
 .main h3{
     margin-bottom: 30px;

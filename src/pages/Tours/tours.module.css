@@ -3,23 +3,17 @@
     margin-bottom: 3rem;
   }
   .main > div {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-row-gap: 100px;
-    grid-column-gap: 126px;
+    display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    padding-bottom: 4.5rem;
+    flex-wrap: wrap;
+    width: 100%;
     margin: auto;
   }
   .main{
       margin-bottom: 3.5rem;
   }
   @media screen and (max-width: 768px) {
-    .main > div{
-      grid-template-columns: repeat(auto-fill, 250px);
-      grid-column-gap: 50px;
-      grid-row-gap: 50px;
-    }
     .main h2{
       font-size: 18px;
     }

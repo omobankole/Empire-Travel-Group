@@ -25,10 +25,10 @@ const Footer = () => {
 
           <div className={classes.colum2}>
             <h4>Tours</h4>
-            <p><Link to="">Easter Tour</Link></p>
-            <p><Link to="">Christmas Tour</Link></p>
-            <p><Link to="">Musical Tour</Link></p>
-            <p><Link to="">Art & Design Tour</Link></p>
+            <p><Link to="/bookNow">Easter Tour</Link></p>
+            <p><Link to="/bookNow">Christmas Tour</Link></p>
+            <p><Link to="/bookNow">Musical Tour</Link></p>
+            <p><Link to="/bookNow">Art & Design Tour</Link></p>
           </div>
 
           <div className={classes.colum2}>
@@ -41,10 +41,10 @@ const Footer = () => {
 
           <div className={classes.colum2}>
             <h4>Links</h4>
-            <p><Link to="">Contact Us</Link></p>
+            <p><Link to="/contactUs">Contact Us</Link></p>
             <p><Link to="">Terms and Services</Link></p>
             <p><Link to="">Privacy Policy</Link></p>
-            <p><Link to="">About Us</Link></p>
+            <p><Link to="/">About Us</Link></p>
           </div>
 
           <div className={classes.colum2}>

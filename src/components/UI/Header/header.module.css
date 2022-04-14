@@ -15,6 +15,7 @@
   justify-content: space-between;
   width: 70%;
 }
+
 .logoContainer {
   display: flex;
   align-items: center;
@@ -91,19 +92,18 @@
     display: none;
   }
   .header .allNav {
-    display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute ;
     height: 60vh;
     width: 60vw;
     z-index: 1;
     top: 0;
-    right: 0;
-    transform: translateY(0%);
+    right: 70px;
+    transform: translateX(70px);
     background: rgb(256, 84, 12, 0.8);
     backdrop-filter: blur(5px);
     border-radius: 0px 0px 0px 20px;
-    transition: 0.5s ease-in-out;
+    transition: transform 0.5s ease-in;
   }
   .allNav > nav {
     flex-direction: column;
@@ -116,6 +116,7 @@
   .allNav nav a {
     margin: 2px 0px;
     height: 40px;
+    color: #fff;
   }
   .header .auth {
     position: absolute;
@@ -123,6 +124,9 @@
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .auth a{
+    color: #fff;
   }
   .logoContainer span {
     display: none;

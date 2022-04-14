@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav a.active {
+  font-weight: bolder;
+  color: #fd5308;
+}
+
 body,
 button,
 input {

@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     transition: 0.5s ease-in-out;
+    margin: 0 60px 60px 60px;
   }
   .main:hover{
     transform: translateX(0.4rem) translateY(-1rem);

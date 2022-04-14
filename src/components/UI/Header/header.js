@@ -20,6 +20,14 @@ const Header = () => {
         <span>Empire Travel Group</span>
       </Link>
       <div className={isOpen ? classes.allNav : classes.allNav2}>
+        {isOpen && (
+          <div
+            className={cx(classes.bar, classes.hideBar)}
+            onClick={showSideBar}
+          >
+            <FaTimes />
+          </div>
+        )}
         <nav>
           <NavLink to="/">
             Home
@@ -46,14 +54,6 @@ const Header = () => {
               Signup
             </Link>
           </div>
-        {isOpen && (
-          <button
-            className={cx(classes.bar, classes.hideBar)}
-            onClick={showSideBar}
-          >
-            <FaTimes />
-          </button>
-        )}
       </div>
       <button className={classes.bar} onClick={showSideBar}>
         <img src={navbar} alt="navbar" />
